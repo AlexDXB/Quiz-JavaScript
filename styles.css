@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22223b;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+}
+.container {
+  width: 800px;
+  height: 500px;
+  background-color: aliceblue;
+  position: relative;
+}
+
+.result {
+  text-align: center;
+  display: none;
+}
+
+.game {
+  display: flex;
+}
+.submit {
+  color: white;
+  background-color: rebeccapurple;
+  border: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.content {
+  padding: 50px;
+}
+.answer {
+  padding-right: 10px;
+  font-size: 24px;
+}
+input {
+  margin: 20px;
+}
+.play-again {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: rebeccapurple;
+  font-size: 1.5rem;
+  color: aliceblue;
+  cursor: pointer;
+}
+.result h1 {
+  font-size: 3rem;
+}
+.correct {
+  color: green;
+}
+.wrong {
+  color: red;
+}
